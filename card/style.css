@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select:none
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.img-container{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.heart {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+.heart:before {
+    font-family: "fontawesome";
+    content: "\f08a";
+    font-size: 28px;
+    color: #1BB76E;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 30px;
+    text-align: center;
+    color: #eef1f4;
+    
+}
+.content p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.content span {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    color: #1BB76E;
+    letter-spacing: 2px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.share-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #1BB76E;
+    border-radius: 50%;
+    line-height: 55px;
+}
+.share-btn .fa{
+    font-size: 20px;
+    color: #fff;
+}
+.social {
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    transition: all 1s ease;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #fff;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+}
+ul li .fa{
+    font-size: 20px;
+    color: #1BB76E;
+}
+
+
+
